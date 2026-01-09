@@ -1,0 +1,20 @@
+# GANs for Imbalanced Dataset Classification
+
+This project explores the use of Generative Adversarial Networks (GANs) to handle class imbalance.
+
+## Dataset
+MNIST with artificial imbalance (digit 9 as minority class).
+
+## Models
+- Vanilla GAN
+- DCGAN
+- CNN Classifier
+
+## Method
+GAN-based data augmentation for minority class.
+
+## Results
+DCGAN achieved the best performance in improving minority class recall.
+
+## Tools
+Python, PyTorch, Jupyter Notebook
